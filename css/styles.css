@@ -38,7 +38,7 @@ h2 span {
 }
 img{
   float:left;
-  margin:14px;
+  margin:20px;
 }
 h2{
   text-align:center;
@@ -86,11 +86,16 @@ footer i{
 
 #email a{
   color:white;
+  padding:20px;
 } 
-#email p{
+#email {
  color:white;
  text-align:center;
- padding:20px;
+ /*padding:20px;*/
 }
+.copy p{
+  text-align:center;
+}
+
 
 

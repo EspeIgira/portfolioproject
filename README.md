@@ -13,11 +13,7 @@ HTML Language and Css Stylesheet.
 
 * **EspeIgira** - *Initial work* - [EspeIgira](https://github.com/EspeIgira/)
 
-See also the list of [contributors](https://github.com/EspeIgira/project-Espe/graphs/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [ReadMe.md](ReadMe.md) file for details
-
-### License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 *{copyright &copy:2018 Espe S. Portfolio}**
