@@ -1,11 +1,12 @@
-html{
-  /*background-color: #999966;*/
+/* html{
+  background-color: #999966;
   background-image: url("background.jpg");
- 
-
+} */
+html{
+  font-family: Monospace;
 }
 h1{
-  color:whitesmoke;
+  /* color:whitesmoke; */
   margin:30px;
 }
 nav{
@@ -15,15 +16,19 @@ nav{
   text-align:right;
   padding-top:20px;
 }
+.navig{
+  background-color:burlywood;
+}
 .navig a{
-  color:white;
+  /* color:white; */
   text-decoration: none;
   margin-left:20px;
   margin-right:50px;
   padding-top:20px;
 }
 .navig a:hover{
-  background-color:blueviolet;
+  background-color:bisque;
+  border-radius:15%;
 }
 h2 { 
   width:100%;
@@ -42,18 +47,18 @@ img{
 }
 h2{
   text-align:center;
-  color:white;
+  /* color:white; */
 }
 .details{
   text-align:center;
-  color:white;
+  /* color:white; */
   font-style:italic;
 }
 div .middle{
   text-align:center;
 }
 .project a{
-  color:white;
+  /* color:white; */
 }
 .created a{
   color:purple;
@@ -65,7 +70,7 @@ footer {
  
  /* border-radius: 50%;
   background-color:white; */
-  color: white;
+  /* color: white; */
   margin-top: 50px;
   text-align:center;
 }
@@ -75,7 +80,7 @@ footer i{
 }
 .icon a{
   font-size:20px;
-  color:white; 
+  /* color:white;  */
   padding:20px;
   text-align:center;
 }
@@ -85,17 +90,74 @@ footer i{
 } 
 
 #email a{
-  color:white;
+  /* color:white; */
   padding:20px;
 } 
 #email {
- color:white;
+ /* color:white; */
  text-align:center;
  /*padding:20px;*/
 }
 .copy p{
   text-align:center;
 }
+.styleimg{
+  padding-bottom:50px;
+}
+.background{
+  background-image:url(https://images.pexels.com/photos/1034646/pexels-photo-1034646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-origin: content-box;
+  background-position:center;
+  color:white;
+  /* border:1px solid orange; */
+  /* border-radius:15%; */
+  text-align:center;
+  opacity:0.9;
+}
 
-
-
+h2{
+  padding:250px;
+  font-size: 35px;
+  text-shadow: 30px;
+  font-weight: 900;
+  text-shadow: 0ex;
+  
+}
+.background1{
+  background-image:url(https://images.pexels.com/photos/1034646/pexels-photo-1034646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-origin: content-box;
+  background-position:center;
+  color:white;
+  /* border:1px solid orange; */
+  /* border-radius:15%;
+  /* text-align:center; */
+  /* opacity:0.9;*/
+ } 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align:center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align:center;
+}
+/* .column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align:center;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align:center;
+} */
