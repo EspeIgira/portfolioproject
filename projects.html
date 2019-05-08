@@ -4,67 +4,106 @@
     <title>Espe Portofolio.</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            /* float: left; */
+            width: 180px;
+        }
+        
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
   </head>
   <body>
     <div class="navig"> 
-            <div class="navig"> 
-                    <nav style=" text-align:center;">
-                            <a  href="home.html">HOME</a>
-                            <a  href="aboutme.html">ABOUT ME</a>
-                            <a  href="skills.html">SKILLS</a>
-                            <a href="projects.html">PROJECTS</a>
-                            <a  href="contactme.html">CONTACT ME</a>
-                        </nav>   
-                </div>
+        <div class="navig"> 
+                <nav style=" padding-top:20px;padding-bottom:25px; text-align:center;">
+                        <a  href="home.html">HOME</a>
+                        <a  href="aboutme.html">ABOUT ME</a>
+                        <a  href="skills.html">SKILLS</a>
+                        <a href="projects.html">PROJECTS</a>
+                        <a  href="contactme.html">CONTACT ME</a>
+                    </nav>   
+            </div>
           
     </div>
-    <center>
-        <div style="color:white;background-color:black;font-size:20px;">
-                <br>
-                <h3>Projects</h3>
-                <br>
-                <!-- <div class="container">
-                        <img style=" float:left; border-radius:7.5% background-color=black;"  src="file:///home/wecode/Desktop/umwana.png" height=300; >
-                        <div class="text-block"> 
-                          
-                          <p>This is Umwana developer project where young children can learn <br>
-                            programming at a young age using content. Starting from 6 to 12 years old. </p>
-                        </div>
-                </div>  -->
-                
-            </center> 
-                            <img style=" float:left; border-radius:7.5%"  alt="umwana" width="500" height="333" src="file:///home/wecode/Desktop/umwana.png">
-                            <p style="  float:right;color:white; border-radius:7.5%" >This is Umwana developer project where young children can learn <br>
-                                programming at a young age using content. Starting from 6 to 12 years old.  </p>
-                           
-                    
-                <div class="projects">
-                <center>
-                
-                <img style=" border-radius:7.5%" alt="usergit" width="500" height="333"src="file:///home/wecode/Desktop/usergit.png">
-                <p> This is Usergithub project where github users can easily search and access their accounts and other github users.<br>
-                    First,Users must have github account.Also there is a link to see Users github.
-        </p>
-                <img style=" border-radius:7.5%"  alt="gallery" width="500" height="333"src="file:///home/wecode/Desktop/gallery.png">
-                <p style="  float:right;color:white; border-radius:7.5%" >This is personal gallery project where different photos are created and search<br>
-                   by category. When click on photo you can see more details about them.   </p>
-              </center>
+    <center><div style="color:white;background-color:black;font-size:20px;">
+            <br>
+              <h3>Projects</h3>
+              <br>
+
+        <div style="margin-left:300px;"  class="row1">
+        <div class="column1">
+                <div style="text-align: center; color:white;background-color:black;" class="gallery">
+                        <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg" width="600" height="400">
+                        </a>
+                        <div class="desc">This is Umwana developer project where young children can learn <br>
+                            programming at a young age using content. Starting from 6 to 12 years old.</div>
+                    </div><br>
+        </div>
+        <div class="column1">
+                <div style="text-align: center; color:white;background-color:black;" class="gallery">
+                        <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg" width="600" height="400">
+                        </a>
+                        <div class="desc">This is Usergithub project where github users can easily search and access their accounts and other github users.<br>
+                            First,Users must have github account.Also there is a link to see Users github.</div>
+                    </div><br>
+        </div>
+        <div class="column1">
+                <div style="text-align: center; color:white;background-color:black;" class="gallery">
+                        <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMBKkmfusF0oYWpYsF2j1JBtYkqZOxTlFHwrEuchxmXojucVNTg" width="600" height="400">
+                        </a>
+                        <div class="desc">This is personal gallery project where different photos are created and search<br>
+                            by category. When click on photo you can see more details about them. </div>
+                </div><br>
+        </div>
+      </div>
             
-            </div>    
-        </div> 
-           
-    </div>     
-    </center>
-  </body>
+            
+            
+          </div></center>   
+  </body><br><br>
   
   <footer style="background-color:burlywood;padding:5px;margin-top:-5vh">
      
      <div class="icon"> 
        
-        <a href="https://www.linkedin.com/in/igiraneza-esperance-816035157/"><i style="font-size:40px;"  class="fa fa-linkedin-square 40px"></i></a>
-        <a href="https://github.com/EspeIgira"><i style="font-size:40px;"class="fa fa-github-square"></i></a>   
+        <a href="https://www.linkedin.com/in/igiraneza-esperance-816035157/"><i  style="font-size:40px;"class="fa fa-linkedin-square 40px"></i></a>
+        <a href="https://github.com/EspeIgira/"><i style="font-size:40px;"class="fa fa-github-square"></i></a>   
      </div> 
-     <p id="email"><a style="font-size:14px;"href="mailto:someone@example.com">espeigira@gmail.com</a></p>
+     <p id="email"><a style="font-size:14px;" href="mailto:someone@example.com">espeigira@gmail.com</a></p>
     </footer>
-<br>
+
 </html>
