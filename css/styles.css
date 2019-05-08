@@ -1,7 +1,7 @@
-/* html{
-  background-color: #999966;
-  background-image: url("background.jpg");
-} */
+html{
+  margin-left: 150px;
+  margin-right:150px;
+}
 html{
   font-family: Monospace;
 }
@@ -20,14 +20,14 @@ nav{
   background-color:burlywood;
 }
 .navig a{
-  /* color:white; */
+  color:white;
   text-decoration: none;
   margin-left:20px;
   margin-right:50px;
   padding-top:20px;
 }
 .navig a:hover{
-  background-color:bisque;
+  background-color:cadetblue;
   border-radius:15%;
 }
 h2 { 
@@ -61,10 +61,10 @@ div .middle{
   /* color:white; */
 }
 .created a{
-  color:purple;
+  color:white;
 }
 .first{
-  color:blueviolet;
+  color:white;
 }
 footer { 
  
@@ -105,7 +105,7 @@ footer i{
   padding-bottom:50px;
 }
 .background{
-  background-image:url(https://images.pexels.com/photos/1034646/pexels-photo-1034646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image:url(https://images.pexels.com/photos/669228/pexels-photo-669228.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size:cover;
   background-origin: content-box;
@@ -119,14 +119,17 @@ footer i{
 
 h2{
   padding:250px;
-  font-size: 40px;
+  font-size: 35px;
   text-shadow: 30px;
-  font-weight: 900;
+  font-weight: 300;
   text-shadow: 0ex;
-  
+
+}
+.background h2{
+  padding-top:20px;
 }
 .background1{
-  background-image:url(https://images.pexels.com/photos/1034646/pexels-photo-1034646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image:url(https://images.pexels.com/photos/669228/pexels-photo-669228.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size:cover;
   background-origin: content-box;
